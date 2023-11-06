@@ -1,7 +1,7 @@
 package main
 
 import (
-	//"fmt"
+	"fmt"
 	"github.com/Fabricio2210/gofiber/elastic"
 	"github.com/Fabricio2210/gofiber/router"
 	"github.com/gofiber/fiber/v2"
@@ -35,4 +35,5 @@ func main() {
 	router.DefaultRouter(app, "TBS")
 	router.DefaultRouter(app, "WPIG")
 	app.Listen(":3000")
+	fmt.Println("Runing")
 }
