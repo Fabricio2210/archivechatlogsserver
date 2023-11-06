@@ -1,0 +1,39 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+/_test/
+/vendor/
+/bin/
+/pkg/
+/out/
+/.vscode/
+
+# Application files
+/application
+*.exe
+*.test
+*.prof
+
+# Dependency directories (remove as needed)
+/vendor/
+/go.sum
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# End of go-gitignore template
+# JSON files
+*.json
+
+# Excel XLSX files
+*.xlsx
+
+# Text files
+*.txt
+
+# Environment variables
+.env
+.env.*
