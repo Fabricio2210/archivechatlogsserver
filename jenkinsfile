@@ -28,6 +28,7 @@ pipeline {
                 // For simplicity, we'll just print a message
                 echo 'Deploying the application...'
                 // script {
+                    
                 //     sh 'sudo systemctl restart gofiber' // Use sudo if needed
                 // }
             }
