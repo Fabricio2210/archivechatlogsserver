@@ -11,7 +11,7 @@ import (
 
 func main() {
 	elastic.ConnectElastic()
-
+	fmt.Println("Runing")
 	app := fiber.New()
 
 	app.Use(cors.New())
@@ -35,5 +35,4 @@ func main() {
 	router.DefaultRouter(app, "TBS")
 	router.DefaultRouter(app, "WPIG")
 	app.Listen(":3000")
-	fmt.Println("Runing")
 }
