@@ -11,7 +11,7 @@ import (
 
 func main() {
 	elastic.ConnectElastic()
-	fmt.Println("Running server!")
+	fmt.Println("Running server!!!")
 	app := fiber.New()
 
 	app.Use(cors.New())
