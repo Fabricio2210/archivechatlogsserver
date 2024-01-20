@@ -34,5 +34,6 @@ func main() {
 	router.DefaultRouter(app, "PROPER")
 	router.DefaultRouter(app, "TBS")
 	router.DefaultRouter(app, "WPIG")
+	router.DefaultRouter(app, "THROWBACK")
 	app.Listen(":3000")
 }
